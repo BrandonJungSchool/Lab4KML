@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Letter B (Fixed)</name>
+
+    <Placemark>
+      <name>B Polygon</name>
+      <Style>
+        <PolyStyle>
+          <color>7dff0000</color> <!-- semi-transparent red -->
+        </PolyStyle>
+      </Style>
+
+      <Polygon>
+        <!-- Outer shape -->
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -79.38,43.75,0
+			  -79.38,43.71,0
+              -79.375,43.71,0
+              -79.36,43.71,0
+              -79.355,43.715,0
+              -79.355,43.725,0
+              -79.36,43.73,0
+              -79.375,43.73,0
+			  -79.375,43.73,0
+              -79.36,43.73,0
+              -79.355,43.735,0
+              -79.355,43.745,0
+              -79.36,43.75,0
+              -79.375,43.75,0
+              -79.38,43.75,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+
+        <!-- Upper hole -->
+        <innerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -79.372,43.745,0
+              -79.362,43.745,0
+              -79.36,43.742,0
+              -79.36,43.738,0
+              -79.362,43.735,0
+              -79.372,43.735,0
+              -79.372,43.745,0
+            </coordinates>
+          </LinearRing>
+        </innerBoundaryIs>
+
+        <!-- Lower hole -->
+        <innerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -79.372,43.725,0
+              -79.362,43.725,0
+              -79.36,43.722,0
+              -79.36,43.718,0
+              -79.362,43.715,0
+              -79.372,43.715,0
+              -79.372,43.725,0
+            </coordinates>
+          </LinearRing>
+        </innerBoundaryIs>
+
+      </Polygon>
+    </Placemark>
+
+  </Document>
+</kml>
